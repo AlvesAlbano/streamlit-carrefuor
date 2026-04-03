@@ -55,7 +55,7 @@ shellingham==1.5.4
 six==1.17.0
 smart_open==7.5.1
 smmap==5.0.3
-spacy==3.8.14
+spacy>=3.7,<3.8
 spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0-py3-none-any.whl
