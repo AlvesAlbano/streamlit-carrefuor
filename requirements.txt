@@ -1,6 +1,6 @@
 streamlit
 pandas
-numpy
+numpy==1.26.4
 plotly
 wordcloud
 spacy>=3.7,<3.8
