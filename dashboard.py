@@ -42,7 +42,6 @@ def formatar_dados(df):
         lambda lista: [item.upper().strip() for item in lista] if isinstance(lista, list) else lista
     )
 
-    print(df["CATEGORIA"].to_string())
     # Apaga as demais colunas de tempo por que dá para pegar essas informações da coluna "TEMPO" e tambem apaga a coluna "LOCAL" já que dividimos ela
     df.drop(columns=["ANO","MES","DIA","DIA_DO_ANO","SEMANA_DO_ANO","DIA_DA_SEMANA","TRIMETRES","LOCAL"],inplace=True)
 
